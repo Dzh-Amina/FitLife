@@ -33,8 +33,12 @@ while True:
     except ValueError:
         print("Ох! Думаю вы не туда нажали. Введите еще раз, используйте '.':")
 
+bmi_value = bmi(user_weight, user_height)
+water_value = water_l(user_weight)
+
 print(f"\nОтчет для пользователя: {user_name} ({user_age} г.)")
-print(f"Ваш Индекс Массы Тела: {bmi(user_weight, user_height)}")
-print(f"Рекомендуемая норма воды: {water_l(user_weight)} л. в день")
+print(f"Ваш Индекс Массы Тела: {bmi_value}")
+print(f"Рекомендуемая норма воды: {water_value} л. в день")
+
 print("-" * 30)
 print("Расчет окончен. Будьте здоровы!")
