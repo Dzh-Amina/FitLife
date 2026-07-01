@@ -1,5 +1,3 @@
-import sys
-import io
 WATER_PER_KG = 30  # константа
 MILLILITERS_PER_LITER = 1000  # константа
 
